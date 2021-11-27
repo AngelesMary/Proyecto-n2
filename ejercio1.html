@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio n°1</title>
+    <script src="ejercicios.js"></script>
+    <link rel="icon" href="images.jpg.ico">
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <form action="ejerci1()" method="get" name="formulario1" onsubmit="ejerci1()" >
+        <h1><u> Ejercicio N°1</u>  </h1>
+        <br><br>
+
+        <p>Crear un formulario que solicite al usuario un número entre 3 y 10.
+            La validación deberá hacerse con HTML, no se permite enviar el formulario
+            vacío.
+            Escribir una función que tome ese número (que le será enviado desde el
+            formulario) y solicite al usuario que ingrese una cantidad de nombres igual
+            al número ingresado, y las guarde en un ARRAY.
+            Finalmente, mostrar por pantalla todos los nombres ingresados.</p>
+            <br>
+            <h3>Ingresar número</h3> 
+            <br><br>  
+            <input type="number" id="numero" name="numero" required min="3" max="10">
+            <br><br>
+             <input type="submit" value="Enviar">  
+              
+    </form>
+    
+</body>
+</html>

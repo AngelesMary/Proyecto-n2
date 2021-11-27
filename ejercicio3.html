@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio n°3</title>
+    <script src="ejercicios.js"></script>
+    <link rel="icon" href="images.jpg.ico">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form action="ejerci3()" method="get" name="formulario3" onsubmit="ejerci3()">
+        <h1> <u> Ejercicio N°3</u></h1>
+        <br>
+
+        <p>Crear un formulario que tenga una lista desplegable (SELECT) que le
+            permita al usuario seleccionar alguna de las tres siguientes operaciones:
+            - Suma - Resta - Multiplicación -
+            Además, agregar dos cuadros de texto que permitan ingresar, cada uno, un
+            valor numérico mayor que cero y verificar que ninguno quede vacío. Ambas
+            verificaciones deberán hacerse usando HTML.
+            Escribir una función que reciba los datos del formulario y muestre por
+            pantalla el mensaje:
+            “El resultado de la operación (acá va la operación seleccionada) entre los
+            números (acá van los números seleccionados) es igual a (acá va el
+            resultado)”      
+        </p>
+        <br><br>
+
+        <h3>Elegir operación</h3>
+        <br><br>
+
+        <select name="opciones" id="opciones">
+            <option value="1">Suma</option>
+            <option value="2">Resta</option>
+            <option value="3">Multiplicación</option>
+        </select>
+        <br><br>
+        <input type="number" required name="v1" id="v1" required min="1">
+        <br><br>
+        <input type="number" required name="v2" id="v2" required min="1">
+        <br><br>
+        <input type="submit" value="Enviar" >
+    </form>
+</body>
+</html>

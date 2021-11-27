@@ -1,0 +1,10 @@
+*{margin: 0px;padding: 0px;}
+body{background-color: rgb(235, 112, 218);text-align: center;}
+h1{text-align: center;font-family: 'Courier New', Courier, monospace;
+    padding: 35px;font-size: 55px;}
+p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;margin: 30px;text-align: left;}
+h3{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 25px;}
+h2{font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;}
+input{border-radius: 10px;padding: 5px 5px;}
+select{border-radius: 10px;padding: 5px 5px;}
